@@ -7,7 +7,6 @@ from rapidfuzz import (fuzz, process)
 from marshmallow import Schema, fields
 from webargs.flaskparser import use_args
 #** (pathlib, json, concurrent)
-from .data_loader import *
 
 main_endpoint, api_endpoint = '/islam-ai/v1/index', '/api/v1'
 ai_bp = Blueprint('ai_blueprint', __name__, url_prefix=main_endpoint)
