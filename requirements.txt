@@ -2,3 +2,4 @@ Flask==2.3.3
 watchdog
 flask_restful
 nested_lookup
+rapidfuzz
