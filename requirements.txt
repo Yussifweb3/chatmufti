@@ -3,3 +3,4 @@ watchdog
 flask_restful
 nested_lookup
 rapidfuzz
+marshmallow
